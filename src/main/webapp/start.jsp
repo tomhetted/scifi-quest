@@ -108,7 +108,7 @@
             <button type="button" class="button" onclick="selectOption('doNotCut')">Не срезать запор</button>
         </c:if>
         <c:if test="${area == ESCAPE}">
-            <button type="button" class="button" onclick="selectOption('win')">Спастись!</button>
+            <button type="button" class="button" id="escapeButton" onclick="selectOption('win')">Спастись!</button>
         </c:if>
     </form>
 </div>
@@ -138,6 +138,7 @@
             url: 'start',
             data: { action: action },
             success: function() {
+                $('#escapeButton').hide();
                 location.reload();
             }
         });

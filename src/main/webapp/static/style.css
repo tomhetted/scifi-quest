@@ -24,8 +24,8 @@ p {
 
 /* Button styles */
 .button {
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px 30px;
+    font-size: 20px;
     color: #fff;
     background-color: #007bff;
     border: none;
@@ -38,17 +38,17 @@ p {
 }
 
 .restart-button {
-    background-color: #ff3333; /* Dark red restart button */
-    font-size: 16px;
-    color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: red;
+    color: deepskyblue;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 .restart-button:hover {
-    background-color: #cc0000; /* Darker red on hover */
+    background-color: darkred;
 }
 
 /* Additional styles specific to the quest options */
