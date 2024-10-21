@@ -10,7 +10,7 @@ import java.io.IOException;
 
 import static org.quest.Area.*;
 
-@WebServlet("/start")
+@WebServlet(name = "StartServlet", value = "/start")
 public class StartServlet extends HttpServlet {
 
     @Override

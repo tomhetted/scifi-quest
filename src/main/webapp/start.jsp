@@ -123,7 +123,7 @@
 
     function restart() {
         $.ajax({
-            url: '/restart',
+            url: 'restart',
             type: 'POST',
             async: false,
             success: function () {
